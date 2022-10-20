@@ -1,8 +1,8 @@
 ### Servicios utilizados en esta actividad práctica
 
 *   Amazon S3
-*   Pegamento de Amazon
-*   Atenea Amazónica
+*   Amazon Glue
+*   Amazon Athena
 *   Amazon QuickSight
 
 ### Etapas para el desarrollo
@@ -13,7 +13,7 @@
 *   Crear carpeta `/output` y otro con el nombre del conjunto de datos. Este nombre definirá el nombre de la tabla creada en Glue)
 *   Cargue los archivos de datos ubicados en la carpeta `/data`
 
-#### Crear rastreador de pegamento
+#### Crear Glue Crawler
 
 *   Consola de Amazon Glue -> rastreadores -> Agregar rastreador
 *   Tipo de origen -> Rastrear todas las carpetas
